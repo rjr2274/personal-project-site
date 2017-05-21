@@ -1,0 +1,124 @@
+/*************************
+GENERAL
+*************************/
+
+body {
+  background: lightgrey;
+}
+img {
+  max-width: 100%;
+}
+
+body, html {
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+
+/*************************
+Heading
+*************************/
+
+header {
+  background: darkgrey;
+  width: auto;
+  margin-top: 0;
+  border-top: 0;
+  padding: 5px 0 30px 10px ;
+  border-bottom: 3px solid red;
+}
+
+.logo {
+  padding-top: 10px;
+  text-align: left;
+  display: inline-block;
+  font-family: 'Monda', sans-serif;
+}
+
+#developerLogo {
+  color: red;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 3em;
+}
+
+/*************************
+Navagation
+*************************/
+nav {
+  float: right;
+  text-align: right;
+  padding-right: 10px;
+  margin: 0 20px 0 0;
+  font-size: 1.2rem;
+}
+
+.nav_wrap {
+  margin: 0;
+  border-left: 3px solid red;
+  padding-left: 10px;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+nav li {
+  list-style: none;
+  font-family: 'Monda', sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+}
+
+a:link, a:visited {
+  color: black
+}
+
+a:hover, a.selected {
+  color: red;
+}
+
+/*************************
+Gallery
+*************************/
+
+.projects  {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.projects li {
+  float: left;
+  width: 40%;
+  margin: 5%;
+  color: black;
+}
+
+.projects li p {
+  text-align: center;
+  font-size: 1.7rem;
+  font-family: 'Oswald', sans-serif;
+}
+
+.site1 {
+  width: 30%;
+  margin-left: 33.3333%;
+  text-align: center;
+}
+
+.site1:hover {
+  border-bottom: 2px solid red;
+}
